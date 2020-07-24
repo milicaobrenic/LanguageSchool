@@ -1,0 +1,134 @@
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+/* 	ne prepoznaje konstante */
+	:root {
+		--lightblue: #E7F2F8;
+		--darkblue: #74BDCB;
+		--orange: #FFA384;
+		--yellow: #EFE7BC;
+	}
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	html, body {
+		height: 100%;
+	}
+	
+	.content {
+		min-height: 50%;
+	}
+	
+	body {
+		font-family: 'Lato', sans-serif;
+		font-size: 16px;
+		background: #E7F2F8 !important;
+	}
+	
+	h2::after {
+	 	content: "";
+	 	display: block;
+	 	margin: 23px auto;
+	 	width: 100px;
+	 	height: 5px;
+	 	background: #FFA384;
+	 }
+	
+/* 	-------------------Navigacija--------------------- */
+	.bg-light {
+    background-color: #74BDCB !important;
+	}
+	.navbar-brand {
+		font-size: 2rem;
+		letter-spacing: 1.7px;
+	}
+	.navbar-brand:hover {
+		color: #FFA384 !important;
+		transition: .4s ease;
+	}
+	.navbar .navbar-nav .nav-link {
+		padding-left: 30px;
+		font-size: 1.3rem;
+	}
+	.navbar .navbar-nav .nav-link:hover {
+		color: #FFA384 !important;
+		transition: .4s ease;
+	}
+	
+/* 	-------------------Jumbotron--------------------- */
+	.header {
+		background-image: url(/Talk/img/naslovna.png);
+		background-position: center;
+		background-size: cover;
+		border-radius: 0 !important;
+		padding: 200px 0;
+		margin-bottom: 0;
+	}
+			
+/* 	-------------------Footer--------------------- */
+	footer {
+		position: relative;
+		clear: both;
+	}
+	.contact .fas {
+		font-size: 2rem;
+		color: #74BDCB; 
+	}
+	.contact .fas:hover {
+		color: #FFA384;
+	}
+	 
+/* 	-------------------Button--------------------- */
+	.btn-primary {
+		background: #74BDCB !important;
+		border: #74BDCB !important;
+		margin-top: 25px;
+	}
+	.btn-primary:hover {
+		background: #EFE7BC !important;
+		border: #EFE7BC !important;
+		color: black !important;
+	}
+	
+/* 	----------------------------- Body --------------------- */
+	.content {
+		  max-width: 500px;
+		  margin: auto;
+		  padding: 10px 0 !important;
+	}
+	input[type=submit] {
+		background: #74BDCB !important;
+		font-family: 'Lato', sans-serif;
+		font-size: 18px;
+		padding: 3px 5px !important;
+		text-align: center;
+		border: 1px solid white;
+  		border-radius: 4px;
+  		margin: 10px 150px;
+  		text-color: white !important;
+  		border-color: black !important;
+	}
+	table, th, td {
+		border: 1px solid black;
+		background-color: #FFA384 !important;
+		margin: 10px 130px;
+		padding: 7x;
+		text-align: center;
+	}
+	input[type=text] {
+		border-radius: 7px;
+		background-color: #EFE7BC !important;
+		border-color: black !important;
+	}
+	input[type=password] {
+		border-radius: 7px;
+		background-color: #EFE7BC !important;
+		border-color: black !important;
+	}
+	select {
+		background-color: #EFE7BC !important;
+		margin: 0px 80px;
+	}
+</style>
